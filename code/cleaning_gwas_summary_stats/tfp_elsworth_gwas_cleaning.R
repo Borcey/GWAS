@@ -1,34 +1,59 @@
-# GOZLEMLEME
 library(data.table)
 library(tidyverse)
 library(dplyr)
 
-tfr <- data.table::fread("N:/SUN-CBMR-Kilpelainen-Group/Team projects/Bora/raw_data/raw_full_sumstats/raw_tfr_filtered_gwas_elsworth.txt")
+tfp <- data.table::fread("/maps/projects/kilpelainen-AUDIT/data/team_projects/Bora/input/raw_gwas_sum_stats/ready_to_use/trunk_fat_percentage/ukb_b_16407_raw/ukb_b_16407_raw.tsv")
 
 
-# rename col
-colnames(tfr)
+tfp <- tfp %>%
+  separate(
+    col = `UKB-b-16407`,
+    into = c("beta","standard_error","p_value","effect_allele_frequency","ID"),
+    sep = ":",
+    remove = FALSE
+  )
 
-tfr <- tfr %>%
-  dplyr::select("chromosome","position","variant","effect_allele","other_allele","beta","standard_error","p_value","effect_allele_frequency")
-colnames(tfr) <- c("chromosome","base_pair_location","variant","effect_allele","other_allele","beta","standard_error","p_value","effect_allele_frequency")
+colnames(tfp)
 
-tfr$sample_size <- NA
+tfp <- tfp%>%
+  dplyr::select("#CHROM","POS","REF","ALT","FORMAT","UKB-b-16407","beta","standard_error","p_value","effect_allele_frequency","ID")
 
+colnames(tfp) <- c("chromosome","base_pair_location","effect_allele","other_allele","FORMAT","UKB-b-16407","beta","standard_error","p_value","effect_allele_frequency","variant")
+
+tfp$sample_size <- NA
+nrow(tfp)
+
+
+#LOG10P TRANSFORMING
+tfp$p_value <- as.numeric(tfp$p_value)
+tfp$p_value <- 10^(-tfp$p_value)
+
+
+# p_value filtering
+tfp <- tfp %>%
+  dplyr::mutate(p_value = as.numeric(p_value)) %>%
+  dplyr::filter(!is.na(p_value), p_value < 5e-8)
+
+# application of 4 functions
+
+tfp <- pos_aligner_df(tfp)
+nrow(tfp)
+tfp <- alleloi(tfp)
+nrow(tfp)
+tfp <- eaf_chooser(tfp)
+nrow(tfp)
+tfp <- mhc_cleaner(tfp)
+nrow(tfp)
 
 # create chr_pos column
 
-tfr <- tfr %>%
+tfp <- tfp %>%
   mutate(chr_pos = paste(chromosome, base_pair_location, sep = ":" ))
 
-tfr <- tfr %>%
+tfp <- tfp %>%
   mutate(chr_pos = paste0("chr",chromosome, ":",base_pair_location))  
+nrow(tfp)
 
 
-# application of 4 functions
-tfr <- pos_aligner_df(tfr)
-tfr <- alleloi(tfr)
-tfr <- eaf_chooser(tfr)
-tfr <- mhc_cleaner(tfr)
 
-fwrite(tfr, "N:/SUN-CBMR-Kilpelainen-Group/Team projects/Bora/raw_data/raw_full_sumstats/output/chr_pos_gwas/tfr_elsworth_chrpos.txt")
+fwrite(tfp, "/maps/projects/kilpelainen-AUDIT/data/team_projects/Bora/output/cleaned_gwas_sum_stats/tfp_elsworth_gwas_cleaned.txt")
