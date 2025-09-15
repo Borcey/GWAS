@@ -1,0 +1,15 @@
+RSID	Chr_pos	Effect allele	Other allele	BETA (SD)	SE	p-value	HWE p-value	Imputation info	MetaCCA p-value	Gene context	Association with other traits/diseases
+rs11118306	1:219627486	A	G	0.0202	0.0015	2E-40	0.38	0.99	3.16E-21	LYPLAL1---[]---SLC30A10	WHR, Insulin sensitivity, Fasting insulin
+rs13389219	2:165528876	T	C	0.0169	0.0015	2E-29	0.75	0.99	5.01E-41	GRB14---[]---COBLL1	Triglycerides, Fasting insulin, WHR, Insulin sensitivity
+rs2943653	2:227047771	C	T	0.0158	0.0016	7E-24	0.65	0.99	1.58E-43	NYAP2---[]---IRS1	HDL-C, Fasting insulin, Insulin sensitivity
+rs1801282	3:12393125	G	C	0.0289	0.0023	3E-37	0.09	1.0	2E-10	[PPARG]	Insulin sensitivity, Fasting insulin
+rs2276936	4:89726283	A	C	0.0122	0.0015	1E-16	0.72	0.99	2.51E-20	[FAM13A]	WHR, Insulin sensitivity, Fasting insulin
+rs40271	5:55796319	C	T	0.0116	0.0017	6E-12	0.03	0.99	1E-12	ANKRD55---[]---MAP3K1	Insulin sensitivity, Fasting insulin
+rs632057	6:139834012	G	T	0.0087	0.0015	2E-8	0.62	1.0	3.16E-10	CITED2---[]	
+rs998584	6:43757896	C	A	0.009	0.0015	3E-9	0.74	0.99	5E-11	VEGFA---[]---C6orf223	WHR
+rs972283	7:130466854	A	G	0.0143	0.0015	5E-22	0.68	1.0	1.26E-19	KLF14---[]---MKLN1	HDL-C, Insulin sensitivity
+rs2980888	8:126507308	C	T	0.0119	0.0016	9E-14	0.39	0.99	1.26E-35	TRIB1---[]	Adiponectin, ALT, HDL-C, Triglycerides, Insulin sensitivity
+rs7133378	12:124409502	A	G	0.019	0.0016	2E-33	0.63	0.99	2E-17	[DNAH10]	Adiponectin, HDL-C, WHR, Insulin sensitivity
+rs11045172	12:20470221	C	A	0.0108	0.0019	8E-9	0.32	0.99	3.98E-9	AEBP2---[]---PDE3A	Adiponectin
+rs7258937	19:33938800	T	C	0.0157	0.0015	5E-26	0.52	0.99	5E-12	[PEPD]	Insulin sensitivity, Fasting insulin
+rs2267373	22:38600542	C	T	0.0169	0.0015	4E-29	0.56	0.99	7.94E-14	[MAFF]	
