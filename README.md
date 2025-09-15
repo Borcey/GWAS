@@ -1,6 +1,21 @@
 # GWAS
 Bora Ceylan's GWAS studies and further
 
+# Download GWAS
+
+Use download_gwas.sh to download in your raw_data folder the summary statistics that we are using.
+
+```
+bash download_gwas.sh
+```
+
+Inside this code you can find the following:
+
+```
+wget link
+```
+
+
 # "code" section
 - ld_clumping = LD Clumping codes for LD-clumped GWAS'S. Also, includes rest of the GWAS's.
 - cleaning_gwas_summary_stats = p-value filtering, EAF filtering, MHC cleaning, positive beta aligning and allele exchanging based on the beta signs, chr_pos addition.
