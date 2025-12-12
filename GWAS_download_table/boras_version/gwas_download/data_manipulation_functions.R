@@ -68,15 +68,13 @@ mhc_cleaner <- function(data) {
 
 # ---------------------------------------------------------------------------------- #
 
-# K O N T R O L      E D ?? L E C E K 
+# Trait comparison and min p_value selector
 
-# Her blok i??in ayn?? i??lemi yapan helper fonksiyon
 pick_min_p <- function(df, cols, prefix) {
   mat <- as.matrix(
     data.frame(lapply(df[cols], as.numeric))
   )
   
-  # sat??r sat??r min p-value
   min_p <- apply(
     mat, 1,
     function(x) {
@@ -84,14 +82,13 @@ pick_min_p <- function(df, cols, prefix) {
     }
   )
   
-  # sat??r sat??r hangi s??tunda minimum var (NA'lar?? atlayarak)
   min_idx <- apply(
     mat, 1,
     function(x) {
       if (all(is.na(x))) {
         NA_integer_
       } else {
-        which.min(x)  # min p-value'nin indexi
+        which.min(x)  # index of p value
       }
     }
   )
@@ -103,4 +100,5 @@ pick_min_p <- function(df, cols, prefix) {
 }
 
 # ---------------------------------------------------------------------------------- #
+
 
