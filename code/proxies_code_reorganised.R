@@ -48,3 +48,4 @@ hits <- merge(proxies, eqtl_small, by.x = "Coord", by.y = "coord", allow.cartesi
 final <- hits[, .(query, RS_Number, Coord, R2, ENSG, gene, signal, pval_joint, eqtl_variant)]
 
 fwrite(final, "/home/boraceylan/Desktop/output/GWAS_to_AdipoExpress_gene_map_r2ge0.8.tsv", sep = "\t")
+fwrite(proxies, "/home/boraceylan/Desktop/output/all_proxies_r2ge_08.tsv")
