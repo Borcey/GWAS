@@ -1,0 +1,29 @@
+============================================================
+  ABC / ATAC-seq Overlap + eQTL Cross-Validation — Summary
+  Date: 2026-05-07 00:01:07
+============================================================
+
+── INPUTS ──
+  Proxy SNPs (r² ≥ 0.8): 42,730
+  Lead SNPs: 1603
+  eQTL gene map rows: 136
+  eQTL genes: 136
+
+── ABC OVERLAP ──
+  day0: 6,159 overlaps | 2778 genes
+  day4: 6,480 overlaps | 2898 genes
+  day14: 5,998 overlaps | 2848 genes
+
+── CROSS-VALIDATION ──
+  day0: 66 genes
+  day4: 62 genes
+  day14: 64 genes
+
+── TEMPORAL PATTERNS ──
+      pattern     N
+       <char> <int>
+1: all_stages    55
+2: early_only     8
+3:  late_only     6
+4:      other     3
+5:   mid_only     2
