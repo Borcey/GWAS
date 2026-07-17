@@ -1,0 +1,75 @@
+lead_snp	traits	gene_name	ENSG	eqtl_pval	day0_abc_score	day4_abc_score	day14_abc_score	pattern
+rs10055995	whradjbmi_pulit	REEP2	ENSG00000132563	1.6853700000000002e-24	0.39075818		0.30839397	other
+rs10182505	arm_fat_perc_left_elseworth, arm_fat_perc_right_elseworth	RP11-254F7.2	ENSG00000260077	1.26085e-19	0.68260149	0.62107084	0.70407094	all_stages
+rs10888393	multi_trait_fa_chami	HORMAD1	ENSG00000143452	1.50499e-87	0.904499			early_only
+rs10888393	multi_trait_fa_chami	SETDB1	ENSG00000143379	1.2996900000000002e-18	0.032406653	0.034252439	0.038403784	all_stages
+rs10958704	multi_trait_ir_garcia_urena	FGFR1	ENSG00000077782	1.66348e-37	0.39516556	0.47489826	0.49918837	all_stages
+rs1105881	whradjbmi_pulit	JMJD7-PLA2G4B	ENSG00000168970	1.84661e-136	0.77416386	0.88582202	0.90371451	all_stages
+rs11078883	multi_trait_fa_chami	AC090617.1	ENSG00000236838	1.89637e-09	0.37159775	0.28069272	0.31862813	all_stages
+rs11231156	tg_hdl_oliveri	EML3	ENSG00000149499	1.24788e-109	0.32619102	0.32570512	0.3626568	all_stages
+rs11231156	tg_hdl_oliveri	MIR3654	ENSG00000255508	1.99478e-141	0.066002184	0.042585136	0.081655888	all_stages
+rs11574514	whradjbmi_pulit	DUS2	ENSG00000167264	1.38171e-17	0.045193406	0.033127798		early_only
+rs11724804	multi_trait_ir_garcia_urena, whradjbmi_pulit	DGKQ	ENSG00000145214	1.7844400000000002e-166	0.67263774	0.59858314	0.65973714	all_stages
+rs11747001	whradjbmi_pulit	HSPA4	ENSG00000170606	1.59864e-77	0.72002475	0.75147246	0.82002934	all_stages
+rs11770285	whradjbmi_pulit	LAMB1	ENSG00000091136	1.2041e-26		0.026614869	0.11073381	late_only
+rs11871767	leg_fat_perc_right_elseworth	LIMD2	ENSG00000136490	1.58432e-08	0.37131449	0.51789932	0.48710498	all_stages
+rs1190982	whradjbmi_pulit	AL132989.1	ENSG00000268466	1.26808e-27	0.46449832	0.49773876	0.58887908	all_stages
+rs1190982	whradjbmi_pulit	RP11-349A22.5	ENSG00000257621	1.61592e-18	0.86247618	0.85274449	0.78237445	all_stages
+rs12201678	leg_fat_perc_left_elseworth	U91328.22	ENSG00000272810	1.10712e-57	0.10140661	0.1196712	0.14879067	all_stages
+rs12325187	whradjbmi_pulit	TIGD7	ENSG00000140993	1.0568e-137	0.85901062	0.86532739	0.86181462	all_stages
+rs12774134	whradjbmi_pulit	U8	ENSG00000238840	1.16788e-13	0.28024393	0.46088361	0.37253811	all_stages
+rs13198178	whradjbmi_pulit	TFEB	ENSG00000112561	1.66763e-29	0.22540373	0.40880523	0.40598697	all_stages
+rs13234914	whradjbmi_pulit	SEMA3D	ENSG00000153993	1.80037e-08	0.062598799			early_only
+rs1365297	tg_hdl_oliveri	DR1	ENSG00000117505	1.05649e-07	0.047440372			early_only
+rs1406948	whradjbmi_pulit	UQCC1	ENSG00000101019	1.22118e-72	0.22904787	0.023867303	0.033788946	all_stages
+rs143257534	adipoqadjbmi_sanz_martinez	ADIPOQ	ENSG00000181092	1.07497e-14	0.16534028	0.40907731	0.53356294	all_stages
+rs143257534	adipoqadjbmi_sanz_martinez	ADIPOQ-AS1	ENSG00000226482	1.08996e-16	0.049977492	0.26436594	0.36321133	all_stages
+rs143257534	adipoqadjbmi_sanz_martinez	RP11-573D15.1	ENSG00000231982	1.24599e-11	0.30998383	0.27987872	0.05549902	all_stages
+rs143257534	adipoqadjbmi_sanz_martinez	RP11-573D15.2	ENSG00000232233	1.23034e-24	0.30791171	0.29088475	0.052920165	all_stages
+rs149764880	multi_trait_fa_chami	CLCN6	ENSG00000011021	1.04252e-79	0.63443195	0.64543707	0.5592875	all_stages
+rs16978854	whradjbmi_pulit	NFIX	ENSG00000008441	1.09872e-11	0.10206069	0.41005825	0.10880253	all_stages
+rs17154889	whradjbmi_pulit	EIF3KP1	ENSG00000175749	1.93977e-100	0.29921255	0.91792304	0.65448136	all_stages
+rs17154889	whradjbmi_pulit	PPIP5K2	ENSG00000145725	1.24738e-70	0.8528738	0.91288092	0.8780199	all_stages
+rs19573	trunk_fat_perc_elseworth	ACO2	ENSG00000100412	1.2957499999999999e-42	0.085849567	0.10047108	0.051445458	all_stages
+rs19573	trunk_fat_perc_elseworth	C22orf46	ENSG00000184208	1.15564e-19	0.12960348			early_only
+rs19573	trunk_fat_perc_elseworth	TOB2	ENSG00000183864	1.81633e-10	0.52191744	0.71426926	0.46803435	all_stages
+rs2167750	whradjbmi_pulit	FAM13A	ENSG00000138640	1.76731e-56		0.023142162		mid_only
+rs2293251	multi_trait_fa_chami	MRAS	ENSG00000158186	1.06175e-08	0.15245249	0.091737078	0.06673763	all_stages
+rs28441684	multi_trait_fa_chami	RP11-458F8.1	ENSG00000232546	1.79754e-25	0.98424464	0.98690863	0.98977452	all_stages
+rs28441684	multi_trait_fa_chami	RP11-458F8.2	ENSG00000230295	1.51726e-17	0.13760608	0.21106679	0.36489301	all_stages
+rs28441684	multi_trait_fa_chami	RP11-458F8.4	ENSG00000273142	1.0522e-244	0.088600463	0.1633276	0.22937846	all_stages
+rs28542498	leg_fat_perc_left_elseworth	TMEM55A	ENSG00000155099	1.39479e-61		0.05951863		mid_only
+rs3087523	arm_fat_perc_left_elseworth, arm_fat_perc_right_elseworth, leg_fat_perc_right_elseworth	C2orf49	ENSG00000135974	1.27832e-10	0.35862974	0.46808399	0.34068734	all_stages
+rs34898535	arm_fat_perc_left_elseworth, arm_fat_perc_right_elseworth, leg_fat_perc_left_elseworth, tg_hdl_oliveri, trunk_fat_perc_elseworth	ZNF668	ENSG00000167394	1.10653e-19	0.23629465	0.49148382	0.43027587	all_stages
+rs3803286	arm_fat_perc_left_elseworth, arm_fat_perc_right_elseworth, leg_fat_perc_left_elseworth, leg_fat_perc_right_elseworth, trunk_fat_perc_elseworth	TRAF3	ENSG00000131323	1.61516e-30	0.10595622	0.23800164	0.17282241	all_stages
+rs3826331	retnadjbmi_sanz_martinez	MED24	ENSG00000008838	1.42347e-165	0.046155323			early_only
+rs4375701	multi_trait_fa_chami	NPEPPS	ENSG00000141279	1.30785e-15	0.27326645	0.3706631	0.29072224	all_stages
+rs4727295	arm_fat_perc_left_elseworth	PMS2P11	ENSG00000241350	1.6030999999999998e-82		0.97294769	0.96651901	late_only
+rs4821764	multi_trait_fa_chami, multi_trait_fa_martin	PLA2G6	ENSG00000184381	1.9784500000000002e-69	0.075444926	0.66619248	0.55486541	all_stages
+rs4836533	multi_trait_fa_chami	KRT8P33	ENSG00000250539	1.16827e-10	0.66049026		0.28269407	other
+rs56364564	multi_trait_fa_chami	CPEB4	ENSG00000113742	1.83217e-14	0.10963093	0.061545482	0.064768442	all_stages
+rs5753082	multi_trait_fa_chami	GATSL3	ENSG00000239282	1.0087e-77	0.51162104	0.58220818	0.55871841	all_stages
+rs59104589	tg_hdl_oliveri	SEPT2	ENSG00000168385	1.7881e-21	0.074735196	0.086800066	0.13301665	all_stages
+rs6047259	whradjbmi_pulit	PLK1S1	ENSG00000088970	1.40266e-79	0.90894481	0.88155153	0.88607324	all_stages
+rs650194	tg_hdl_oliveri	RP3-333A15.2	ENSG00000269933	1.84764e-17		0.048523447	0.025793097	late_only
+rs7107409	arm_fat_perc_right_elseworth, leg_fat_perc_right_elseworth	TSKU	ENSG00000182704	1.90846e-10	0.48896058	0.41649622	0.47332523	all_stages
+rs7133378	adipoqadjbmi_sanz_martinez, arm_fat_perc_left_elseworth, arm_fat_perc_right_elseworth, asat_gsat_ratio_agrawal, fiadjbmi_chen, gsatadjbmi_agrawal, multi_trait_fa_chami, multi_trait_fa_huang, multi_trait_fa_ji, multi_trait_fa_martin, multi_trait_ir_garcia_urena, trunk_fat_perc_elseworth, vat_asat_ratio_agrawal, vat_gsat_ratio_agrawal, vatadjbmi_agrawal	DNAH10OS	ENSG00000250091	1.658e-51	0.50931588	0.58599189	0.43284009	all_stages
+rs7133378	adipoqadjbmi_sanz_martinez, arm_fat_perc_left_elseworth, arm_fat_perc_right_elseworth, asat_gsat_ratio_agrawal, fiadjbmi_chen, gsatadjbmi_agrawal, multi_trait_fa_chami, multi_trait_fa_huang, multi_trait_fa_ji, multi_trait_fa_martin, multi_trait_ir_garcia_urena, trunk_fat_perc_elseworth, vat_asat_ratio_agrawal, vat_gsat_ratio_agrawal, vatadjbmi_agrawal	FAM101A	ENSG00000178882	1.18222e-12	0.22191128	0.27187182	0.397908	all_stages
+rs7133378	adipoqadjbmi_sanz_martinez, arm_fat_perc_left_elseworth, arm_fat_perc_right_elseworth, asat_gsat_ratio_agrawal, fiadjbmi_chen, gsatadjbmi_agrawal, multi_trait_fa_chami, multi_trait_fa_huang, multi_trait_fa_ji, multi_trait_fa_martin, multi_trait_ir_garcia_urena, trunk_fat_perc_elseworth, vat_asat_ratio_agrawal, vat_gsat_ratio_agrawal, vatadjbmi_agrawal	RP11-380L11.3	ENSG00000270005	1.1583899999999999e-35	0.62434804	0.67997148	0.54381246	all_stages
+rs7133378	adipoqadjbmi_sanz_martinez, arm_fat_perc_left_elseworth, arm_fat_perc_right_elseworth, asat_gsat_ratio_agrawal, fiadjbmi_chen, gsatadjbmi_agrawal, multi_trait_fa_chami, multi_trait_fa_huang, multi_trait_fa_ji, multi_trait_fa_martin, multi_trait_ir_garcia_urena, trunk_fat_perc_elseworth, vat_asat_ratio_agrawal, vat_gsat_ratio_agrawal, vatadjbmi_agrawal	ZNF664	ENSG00000179195	1.2534899999999998e-91	0.36813439	0.4692572	0.59659836	all_stages
+rs7157709	trunk_fat_perc_elseworth	PRKD1	ENSG00000184304	1.80488e-17	0.030086349			early_only
+rs72657272	adipoqadjbmi_sanz_martinez	PUM1	ENSG00000134644	1.0183200000000001e-32	0.021219205			early_only
+rs72959041	arm_fat_perc_left_elseworth, arm_fat_perc_right_elseworth, gsatadjbmi_agrawal, multi_trait_fa_martin, tg_hdl_oliveri, trunk_fat_perc_elseworth, whradjbmi_pulit	RSPO3	ENSG00000146374	1.31935e-54			0.166069	late_only
+rs75073260	tg_hdl_oliveri	GAS6-AS2	ENSG00000272695	1.57786e-11			0.020718469	late_only
+rs7924036	tg_hdl_oliveri	JMJD1C	ENSG00000171988	1.59251e-13	0.14517639	0.19709806	0.20720614	all_stages
+rs80076900	multi_trait_fa_chami	COL5A3	ENSG00000080573	1.54659e-10	0.078196984	0.049835971	0.050653357	all_stages
+rs8049439	trunk_fat_perc_elseworth	ATXN2L	ENSG00000168488	1.7676e-110	0.67760235	0.68621805	0.71816982	all_stages
+rs8049439	trunk_fat_perc_elseworth	RP11-1348G14.4	ENSG00000251417	1.49037e-72	0.19027663	0.11449547	0.23583395	all_stages
+rs8049439	trunk_fat_perc_elseworth	RP11-22P6.2	ENSG00000261766	1.9087e-16	0.75010956	0.7779334	0.80181617	all_stages
+rs8101064	multi_trait_ir_garcia_urena, multi_trait_ir_lotta, tg_hdl_oliveri	INSR	ENSG00000171105	1.32615e-19	0.76800753	0.77833433	0.80185551	all_stages
+rs821100	whradjbmi_pulit	MMP16	ENSG00000156103	1.55038e-73	0.80256917	0.75654444	0.79822484	all_stages
+rs931992	tg_hdl_oliveri	TCAP	ENSG00000173991	1.53676e-07	0.049163954		0.031550453	other
+rs9435732	whradjbmi_pulit	ATP13A2	ENSG00000159363	1.6987e-11	0.25164068	0.47176951	0.4190844	all_stages
+rs9610329	multi_trait_ir_garcia_urena	APOL5	ENSG00000128313	1.97239e-65		0.030429838	0.049891327	late_only
+rs9610329	multi_trait_ir_garcia_urena	APOL6	ENSG00000221963	1.56635e-190	0.51755424	0.51445011	0.60705319	all_stages
+rs9646447	leg_fat_perc_left_elseworth, leg_fat_perc_right_elseworth	DHRS7B	ENSG00000109016	1.22844e-25	0.027302331	0.022915415	0.02355783	all_stages

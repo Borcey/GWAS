@@ -1,0 +1,62 @@
+============================================================
+  Lead SNP x Trait x ABC-Day Distribution — Summary
+  Date: 2026-07-02 18:45:25
+============================================================
+
+── INPUTS ──
+  Lead SNPs: 1603
+  Traits: 34
+  Sanity check mismatches (should be 0): 0
+
+── N TRAITS PER LEAD SNP ──
+   n_traits     N
+      <num> <int>
+1:        1  1014
+2:        2   296
+3:        3   140
+4:        4    70
+5:        5    68
+6:        6     8
+7:        7     2
+8:       11     4
+9:       15     1
+
+── WHICH DAY HAS MORE GENES ──
+      day raw_abc_genes cross_validated_genes
+   <char>         <int>                 <int>
+1:   day0          2778                    66
+2:   day4          2898                    62
+3:  day14          2848                    64
+
+── WHRadjBMI ENRICHMENT BY DAY ──
+      day       OR      p_value
+   <char>    <num>        <num>
+1:   day0 1.749028 8.977102e-05
+2:   day4 2.359797 1.358561e-09
+3:  day14 2.242872 1.189119e-08
+
+── TOP 10 TRAITS BY GENE COUNT ──
+                           trait n_lead_snps n_raw_abc_genes
+                          <char>       <int>           <int>
+ 1:              whradjbmi_pulit         247             755
+ 2:     trunk_fat_perc_elseworth         368             747
+ 3:  arm_fat_perc_left_elseworth         410             746
+ 4: arm_fat_perc_right_elseworth         394             706
+ 5:  leg_fat_perc_left_elseworth         354             680
+ 6: leg_fat_perc_right_elseworth         354             642
+ 7:         multi_trait_fa_chami         160             618
+ 8:               tg_hdl_oliveri         179             505
+ 9:  multi_trait_ir_garcia_urena          41             107
+10:   adipoqadjbmi_sanz_martinez          35              60
+    n_cross_validated_genes
+                      <int>
+ 1:                      21
+ 2:                      14
+ 3:                      10
+ 4:                      10
+ 5:                       5
+ 6:                       5
+ 7:                      18
+ 8:                      11
+ 9:                       9
+10:                       9
