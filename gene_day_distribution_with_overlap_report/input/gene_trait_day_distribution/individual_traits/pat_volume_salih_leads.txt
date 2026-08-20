@@ -1,0 +1,3 @@
+variant,chromosome,base_pair_location,other_allele,effect_allele,effect_allele_frequency,p_value,beta,standard_error,sample_size,chr_pos
+rs6428792,1,119656867,A,G,0.3787,4.2e-09,-0.00982855,0.00167287,28161,chr1:119656867
+rs11992444,8,25464690,T,G,0.4831,1.3e-12,-0.0115449,0.00162728,28161,chr8:25464690
